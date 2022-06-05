@@ -25,8 +25,10 @@ The response shape is (32, 32).
 
 ## 3. Convolution Parameters: Stride and Pooling
 ### What is max pooling? (Give a brief, 1-sentence description)
+Max pooling is a type of down-sampling wherein the output is the maximum of the applied filter.
 
 ### If I apply pooling of 2 (2,2 window with a stride of 2) to a (6,6) array, what is the resulting size?
+The resulting size is (5, 5).
 
 
 ## 4. ConvNet Architectures, Layers
