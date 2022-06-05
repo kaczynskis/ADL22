@@ -8,14 +8,19 @@
 
 ## 2. Intro to Convolution Operations: Padding
 ### What is a response layer? (Give a brief, 1-sentence description)
+A response layer is the resulting image from a filter.
 
 ### Given the filter shape of (26, 26, 32), what does each number represent?
+The numbers represent the width and height of each filter, and number of filters, respectively.
 
 ### Given 6x6 input and filter of (3,3): what is the response shape that we get? 
+The response shape is (4, 4).
 
 ### Given (33, 33, 1) input and filter of (2,2): what is the response shape that we get?
+The response shape is (32, 32).
 
 ### What is the difference between ‘valid’ and ‘same’ padding? Given 6x6 input and filter of (3,3), what are the response shapes for both options? 
+"Valid" padding is the default of no padding, whereas "same" padding automatically adds the amount of padding such that the response shape is the same as the input shape. For a 6x6 input and filter of (3, 3), the response shapes would be (4, 4) with "valid" padding" and (6, 6) with "same" padding.
 
 
 ## 3. Convolution Parameters: Stride and Pooling
