@@ -2,6 +2,8 @@
 
 ## 1. Introduction
 ### What is your MSE/MAE with linreg vs tuned network? 
+linreg:
+tuned network:
 
 ### What happens to your train and test results if you add 5 hidden layers with 128 neurons each? 
 
@@ -39,13 +41,17 @@ I, O, F, S, and P represent the architecture of a CNN and stand for Input volume
 The output size is (99, 99).
 
 ### How many weights do I have if I have 24 such filters stacked (conv2_24)?
-
+?
 
 ### Solve for the padding (P), in terms of I, F, and S, if we want the input and output size to remain the same. 
-
+P = (S(O - 1) - I + F) / 2
 
 ## 5. Practical Patterns
 ### What can we use the ImageDataGenerator for? What can it help us fight? (Give a brief, 1-sentence description)
+The ImageDataGenerator can be used for viewing an image in different ways such as by rotating, flipping, or zooming, and can help us fight overfitting.
 
 ### What is a better idea: To use one larger kernel (8,8) or multiple stacked smaller ones, 4x(2,2)? Why? Show the number of weights for each option. 
+It is better to stack multiple smaller kernals.
+(8, 8) kernal: 64d^2
+4x(2, 2) kernals: 16d^2
 
