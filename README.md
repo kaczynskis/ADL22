@@ -2,11 +2,10 @@
 
 ## 1. Introduction
 ### What is your MSE/MAE with linreg vs tuned network? 
-linreg:
-tuned network:
+linreg: 24.29  
+tuned network: 12.70
 
 ### What happens to your train and test results if you add 5 hidden layers with 128 neurons each? 
-
 
 ## 2. Intro to Convolution Operations: Padding
 ### What is a response layer? (Give a brief, 1-sentence description)
@@ -51,7 +50,7 @@ P = (S(O - 1) - I + F) / 2
 The ImageDataGenerator can be used for viewing an image in different ways such as by rotating, flipping, or zooming, and can help us fight overfitting.
 
 ### What is a better idea: To use one larger kernel (8,8) or multiple stacked smaller ones, 4x(2,2)? Why? Show the number of weights for each option. 
-It is better to stack multiple smaller kernals.
-(8, 8) kernal: 64d^2
+It is better to stack multiple smaller kernals.  
+(8, 8) kernal: 64d^2  
 4x(2, 2) kernals: 16d^2
 
